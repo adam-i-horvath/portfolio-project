@@ -1,0 +1,151 @@
+.contact {
+  height: calc(100vh - 240px);
+  text-align: center;
+}
+
+.contact__content {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact__form {
+  width: 400px;
+}
+
+.contact__form,
+.contact__info {
+  margin: 30px;
+  height: 300px;
+}
+
+.contact__info {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  width: 30%;
+  font-size: 1.2rem;
+  background-color: var(--gray);
+}
+
+.contact__info span {
+  margin: 50px;
+}
+
+.contact__name,
+.contact__message,
+.contact__email,
+.contact__submit {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  font-size: 1.5rem;
+  margin-top: 20px;
+  text-align: left;
+}
+
+textarea,
+input {
+  background-color: var(--black);
+  color: var(--white);
+}
+
+.contact__submit {
+  align-items: center;
+}
+
+.contact__sendbutton {
+  font-size: 1.5rem;
+  margin-bottom: 25px;
+  cursor: pointer;
+}
+
+.contact__name__input,
+.contact__email__input,
+.contact__message__textarea {
+  font-size: 1.2rem;
+  margin-top: 5px;
+  padding: 5px;
+  border: 1px solid gray;
+  width: 100%;
+  border: 0;
+  outline: 0;
+  border-bottom: 2px solid var(--gray);
+}
+
+.contact__name__input:focus,
+.contact__email__input:focus,
+.contact__message__textarea:focus {
+  outline: none;
+}
+
+.contact__message__textarea {
+  height: 130px;
+  resize: none;
+}
+
+.contact__title {
+  font-size: 1.5rem;
+  color: #ffffff;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.contact__sendbutton {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 24px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  background-color: var(--black);
+  color: var(--gray);
+  border: none;
+  height: 58px;
+  width: 190px;
+  transition: transform 0.2s;
+  border: 2px solid var(--gray);
+}
+
+.contact__sendbutton:hover {
+  background-color: var(--blue);
+  transform: scale(1.15);
+  color: var(--white);
+  border: 2px solid var(--blue);
+}
+
+@media (max-width: 768px) {
+  .contact {
+    height: calc(100vh + 120px);
+  }
+
+  .contact__title {
+    padding-top: 60px;
+  }
+
+  .contact__content {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .contact__form {
+    width: 95%;
+  }
+
+  .contact__info {
+    width: 95%;
+    font-size: 1rem;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    height: 130px;
+  }
+
+  .contact__info span {
+    margin: 15px;
+    text-align: center;
+  }
+}

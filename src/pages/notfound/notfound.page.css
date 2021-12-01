@@ -1,0 +1,9 @@
+.notfound {
+  margin-top: 140px;
+  text-align: center;
+  height: calc(100vh - 380px);
+}
+
+.notfound__emoji {
+  font-size: 200px;
+}

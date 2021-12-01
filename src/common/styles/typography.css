@@ -1,0 +1,42 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+:root {
+  letter-spacing: 2px;
+  color: var(--white);
+  --black: #0e141b;
+  --white: #ffffff;
+  --gray: #222;
+  --lightgray: #cccccc;
+  --graysuit: #d2d2d2;
+  --red: #ee001e;
+  --seagreen: #2ec4b6;
+  --cyberblue: #05d9e8;
+  --bunker: #121517;
+  --cyan: #00ffff;
+  --blue: #4901cc;
+  --violet: #b421ec;
+  --indigo: #4e01b7;
+}
+
+* {
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif,
+    Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+}
+
+a {
+  text-decoration: none;
+  color: var(--white);
+}
+
+a:hover {
+  text-decoration: none;
+  color: var(--violet);
+}
+
+@font-face {
+  font-family: 'Ikaros-Regular';
+  src: local('Ikaros-Regular'),
+    url('../fonts/Ikaros-Regular.otf') format('truetype');
+  font-weight: normal;
+}

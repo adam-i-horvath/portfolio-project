@@ -1,0 +1,27 @@
+.footer {
+  font-size: 1.3rem;
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: left;
+}
+
+.footer__right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer__react-icons {
+  margin-left: 10px;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+  }
+  .footer__right {
+    margin: 10px;
+  }
+}

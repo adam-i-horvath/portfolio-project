@@ -1,0 +1,60 @@
+.header,
+.header__left,
+.header__right {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  list-style-type: none;
+  margin: 25px;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.header__left li,
+.header__right li {
+  margin-left: 20px;
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.header__left a:hover {
+  color: var(--white);
+}
+
+.header__avatar {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  margin-right: 0.5rem;
+  background: url('../../common/images/bitmoji_me.png') no-repeat;
+  background-size: 5rem;
+}
+.header__avatar:hover {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  margin-right: 0.5rem;
+  background: url('../../common/images/bitmoji_me_hover.png') no-repeat;
+  background-size: 5rem;
+}
+
+.header__left__avatarlink a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .header__right {
+    display: none;
+  }
+  .header__left {
+    display: none;
+  }
+  .header,
+  .header__left,
+  .header__right {
+    margin: 0px;
+  }
+}
