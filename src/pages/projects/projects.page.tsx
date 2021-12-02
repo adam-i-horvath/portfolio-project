@@ -18,8 +18,8 @@ const Projects: React.FC = () => {
         info="This is my portfolio website. I use React for the development."
         technologies="Technologies: React, Typescript, CSS3, HTML5, React Icons"
         mockup={mockup_image}
-        projectLinkGithub="https://github.com/adam-i-horvath"
-        projectLinkWeb="http://google.com"
+        projectLinkGithub="https://github.com/adam-i-horvath/portfolio-project"
+        projectLinkWeb="https://adam-horvath-portfolio-project.web.app/"
       />
       <ProjectItems
         id="portfolioMobileImg"
@@ -28,7 +28,7 @@ const Projects: React.FC = () => {
         technologies="TECHNOLOGIES: Lorem, Ipsum, DOLOR, sit, Amet"
         mockup={mobileDemo}
         projectLinkGithub="https://github.com/adam-i-horvath"
-        projectLinkWeb="http://google.com"
+        projectLinkWeb="#"
       />
       <ProjectItems
         id="Lorem ipsum dolor sit amet"
@@ -37,7 +37,7 @@ const Projects: React.FC = () => {
         technologies="TECHNOLOGIES: Lorem, Ipsum, DOLOR"
         mockup={mobileDemo}
         projectLinkGithub="https://github.com/adam-i-horvath"
-        projectLinkWeb="http://google.com"
+        projectLinkWeb="#"
       />
     </div>
   );

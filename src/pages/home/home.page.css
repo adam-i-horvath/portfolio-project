@@ -12,7 +12,7 @@
   background-repeat: no-repeat;
 }
 .home__fl {
-  font-size: 3.5vw;
+  font-size: 3.5vh;
 }
 .home__fl,
 .home__sl,
@@ -22,13 +22,13 @@
 }
 
 .home__sl {
-  font-size: 14vw;
+  font-size: 15vh;
   padding: 13px;
 }
 
 .home__tl {
   margin-bottom: 40px;
-  font-size: 3vw;
+  font-size: 3vh;
 }
 
 .home__button__a {
